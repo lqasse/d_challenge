@@ -9,6 +9,7 @@ Vue.use(Vuex);
 filters.forEach(f => {
   Vue.filter(f.name, f.excute);
 });
+
 import store from './store/store.js';
 import App from './App';
 

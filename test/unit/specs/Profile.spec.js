@@ -23,6 +23,6 @@ describe('Profile.vue', () => {
 
     expect(wrapper.find('.profile-name').text()).toEqual('Ola Nordmann');
 
-    expect(wrapper.find('.profile-ssn').text()).toEqual('20099045152');
+    expect(wrapper.find('.profile-ssn').text()).toEqual('200990 45152');
   });
 });
